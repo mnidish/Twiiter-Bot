@@ -10,3 +10,9 @@ Step3 --> You have to copy and paste in the code where I have mentioned Access K
 Step4 --> You can now add or make changes to the code, for what your twitter bot should reply. 
 Step5 --> Run your code in the terminal or server to start your twitter bot. 
 Step6 --> The twitter bot is now fully functional and ready to reply.
+
+#Note: lastseen.txt
+          There will be situations where there will be multiple tweets where the bot would have to reply to all the tweets.
+Since, the bot works in the manner of stack, it will reply to the already replied messages once again.  In order to stop this issue
+I have added a last seen text, whenever the bot completes replying to all the tweets, it will store the last tweet id.  So, the next time
+when the program runs, it wont reply to tweet past this id.
